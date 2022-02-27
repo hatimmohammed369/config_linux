@@ -34,3 +34,8 @@ sudo apt install gh
 ./configure --enable-optimizations --prefix=/usr/local --with-ensurepip=install
 sudo make -j
 sudo make altinstall
+
+# Git config
+git config --global user.name "Hatim Muhammed"
+git config --global user.email "hatimmohammed369@gmail.com"
+gh auth login # requires internet connect
