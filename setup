@@ -10,3 +10,5 @@ chsh # change default user shell
 sudo apt-get install fonts-powerline # Powerline fonts for zsh
 
 sudo apt install neovim
+
+sudo apt install tmux # Multiple shells in a single window
