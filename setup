@@ -1,5 +1,9 @@
 sudo apt update
 sudo apt upgrade
 
+# install latest git
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt install git
+
+sudo apt install zsh
+chsh # change default user shell
