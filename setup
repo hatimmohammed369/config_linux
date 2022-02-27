@@ -34,6 +34,8 @@ sudo apt install gh
 ./configure --enable-optimizations --prefix=/usr/local --with-ensurepip=install
 sudo make -j
 sudo make altinstall
+pythonX.Y -m ensurepip --user # if pip not installed
+pythonX.Y -m pip install neovim pylint platformdirs snoop birdseye --user 
 
 # Git config
 git config --global user.name "Hatim Muhammed"
