@@ -8,3 +8,5 @@ sudo apt install git
 sudo apt install zsh
 chsh # change default user shell
 sudo apt-get install fonts-powerline # Powerline fonts for zsh
+
+sudo apt install neovim
