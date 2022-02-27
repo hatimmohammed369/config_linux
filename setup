@@ -48,3 +48,7 @@ sudo apt install git build-essential automake autopoint autoconf libtool pkg-con
 # First git push to server
 git remote add origin <remove-url>
 git push --set-upstream origin main
+
+# VSCode
+wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+sudo apt install ./vscode.deb
