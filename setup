@@ -55,3 +55,16 @@ sudo apt install ./vscode.deb
 
 # Remove "Useless" Ubuntu Dock
 sudo apt remove gnome-shell-extension-ubuntu-dock
+
+# Coc.nvim extension
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+# C/C++ Support
+sudo apt install clang clangd
+Coc-Install coc-clangd
+
+# Python Support
+Coc-Install coc-pyright
+
+# Rust Support
+rustup component add rls rust-analysis rust-src
+Coc-Install coc-rls
