@@ -100,3 +100,7 @@ vim ~/.mutt/muttrc
 #set use_from = yes
 # Go to Gmail Settings (Less Secure Apps access)
 # run mutt
+#
+#
+# Python modules
+python3.10 -m pip install snoop birdseye black pylint neovim pynvim virtualenv ipython --user
