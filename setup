@@ -38,6 +38,7 @@ pythonX.Y -m ensurepip --user # if pip not installed
 pythonX.Y -m pip install neovim pylint platformdirs snoop birdseye plyGitPython --user 
 
 # Git config
+sudo apt-get install git-email # git send-email 
 git config --global user.name "Hatim Muhammed"
 git config --global user.email "hatimmohammed369@gmail.com"
 gh auth login # requires internet connect
