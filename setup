@@ -35,7 +35,7 @@ sudo apt install gh
 sudo make -j
 sudo make altinstall
 pythonX.Y -m ensurepip --user # if pip not installed
-pythonX.Y -m pip install neovim pylint platformdirs snoop birdseye --user 
+pythonX.Y -m pip install neovim pylint platformdirs snoop birdseye ply --user 
 
 # Git config
 git config --global user.name "Hatim Muhammed"
