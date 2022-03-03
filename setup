@@ -136,3 +136,7 @@ git clone git://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git
 cd mcelog
 make
 sudo make install
+
+# More things
+sudo apt-get install fakeroot ncurses-dev xz-utils libssl-dev flex bison libelf-dev 
+sudo apt-get install -y bc
