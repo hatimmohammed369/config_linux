@@ -141,3 +141,15 @@ sudo make install
 # More things
 sudo apt-get install fakeroot ncurses-dev xz-utils libssl-dev flex bison libelf-dev 
 sudo apt-get install -y bc
+
+# setup mail for git send-email
+[sendemail]
+    from = hatimmohammed369@gmail.com
+    smtpserver = smtp.gmail.com
+    smtpserverport = 587
+    smtpencryption = tls
+    smtpuser = hatimmohammed369@gmail.com
+    smtppass = 2357911Gts_VIRTON
+    suppresscc = self
+    chainreplyto = false
+
