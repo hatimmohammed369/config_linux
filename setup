@@ -104,3 +104,35 @@ vim ~/.mutt/muttrc
 #
 # Python modules
 python3.10 -m pip install snoop birdseye black pylint neovim pynvim virtualenv ipython --user
+
+
+# Building Linux Kernel
+# jfsutils
+sudo apt-get install jfsutils
+
+# reiserfsprogs
+sudo apt-get install reiserfsprogs
+
+# Squashfs-tools
+sudo apt-get install squashfs-tools
+
+# btrfs-progs
+sudo apt-get install btrfs-progs
+
+# PPP
+sudo apt-get install ppp
+
+# Openssl
+sudo apt-get install openssl
+
+# Libcrypto
+sudo apt-get install libcrypto++6
+
+# oprofile
+sudo apt-get install oprofile
+
+# mcelog
+git clone git://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git
+cd mcelog
+make
+sudo make install
