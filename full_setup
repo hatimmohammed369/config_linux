@@ -36,3 +36,12 @@ p10k configure
 
 # TMUX
 sudo apt install tmux
+
+# ZSH
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# add zsh-syntax-highlighting to plugins list in ~/.zshrc
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# add zsh-autosuggestions to plugins list in ~/.zshrc
