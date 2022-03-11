@@ -77,3 +77,4 @@ echo "filetype plugin indent on"
 # tar -xJvf binary-name
 # echo "export NODEJS_HOME=path_to_binary/bin" >> ~/.profile
 # echo "export PATH=$NODEJS_HOME:$PATH" >> ~/.profile
+# npm install --global yarn
