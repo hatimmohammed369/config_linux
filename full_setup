@@ -2,3 +2,13 @@ sudo apt update
 
 # Neovim
 sudo apt install neovim
+
+# Git
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+git config --global --user.email "hatimmohammed369@gmail.com"
+git config --global --user.name  "Hatim Muhammed"
+
+# Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
