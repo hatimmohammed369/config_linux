@@ -63,6 +63,15 @@ echo "set runtimepath^=~/.vim runtimepath+=~/.vim/after" >> ~/.config/nvim/init.
 echo "let &packpath = &runtimepath" >> ~/.config/nvim/init.vim
 echo "source ~/.vimrc" >> ~/.config/nvim/init.vim
 
+# Vundle.vim setup
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+echo "set nocompatible" >> ~/.vimrc
+echo "filetype off" >> ~/.vimrc
+echo "set rtp +=~/.vim/bundle/Vundle.vim" >> ~/.vimrc
+echo "call vundle#begin()" >> ~/.vimrc
+echo "call vundle#end()" >> ~/.vimrc
+echo "filetype plugin indent on"
+
 # Nodejs
 # Install latest nodejs binary
 # tar -xJvf binary-name
